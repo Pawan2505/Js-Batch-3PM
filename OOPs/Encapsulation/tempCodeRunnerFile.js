@@ -1,1 +1,1 @@
-s1.show();
+person.greet()
