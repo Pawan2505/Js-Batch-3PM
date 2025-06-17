@@ -72,35 +72,118 @@
 // c1.display();
 
 
-class Parent{
+// class Parent{
 
-    constructor(name,age){
-        this.name = name;
-        this.age = age;
-    }
+//     constructor(name,age){
+//         this.name = name;
+//         this.age = age;
+//     }
 
-    display(){
-        console.log("This is Parent Class");
-        console.log("Name : ",this.name);
-        console.log("Age : ",this.age);
-        console.log("Marks : ",this.marks);
+//     display(){
+//         console.log("This is Parent Class");
+//         console.log("Name : ",this.name);
+//         console.log("Age : ",this.age);
+//         console.log("Marks : ",this.marks);
         
-    }
-}
+//     }
+// }
 
-class Child extends Parent {
+// class Child extends Parent {
 
-    constructor(name,age,marks){
-        super(name,age);
-        this.marks = marks;
-    }
+//     constructor(name,age,marks){
+//         super(name,age);
+//         this.marks = marks;
+//     }
 
-}
+// }
 
-// const p1 = new Parent("dishant",20);
+// // const p1 = new Parent("dishant",20);
 
-// p1.display();
+// // p1.display();
 
-const c1 = new Child("Manish",25,100);
+// const c1 = new Child("Manish",25,100);
 
-c1.display();
+// c1.display();
+
+
+
+
+// class Vehicle{
+
+//     setdetails(name,age){
+//         this.name = name;
+//         this.age = age;
+//     }
+
+//     getdetails(){
+//         console.log(this.name)
+//         console.log(this.age)
+//     }
+// }
+
+
+// const v1 = new Vehicle();
+// v1.setdetails("Pawan",25);
+
+
+// v1.getdetails();
+
+
+// class Vehicle{
+
+//     set details({name,age}){
+//         this.name = name;
+//         this.age = age;
+//     }
+
+//     get details(){
+//         console.log(this.name)
+//         console.log(this.age)
+//     }
+// }
+
+
+// const v1 = new Vehicle();
+// v1.details = {name:"Pawan",age:25};
+
+
+// v1.details;
+
+
+
+// const obj = {
+//     username:"Pawan",
+//     age:25
+// }
+
+
+// const {username, age} = obj;
+
+// console.log(username)
+// console.log(age)
+
+
+
+// let x = 10;
+// let y = 20;
+
+// [y,x] = [x,y]
+
+// console.log(x)
+// console.log(y)
+
+
+
+//  let arr = [12,25,34];
+
+//  [a,,b] = arr;
+
+//  console.log(a)
+//  console.log(b)
+
+
+
+let arr = [12,34,56,78];
+console.log(arr)
+
+console.log(...arr)
