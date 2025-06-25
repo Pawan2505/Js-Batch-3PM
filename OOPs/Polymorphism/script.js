@@ -67,3 +67,48 @@
 
 
 
+// class ZoomOut{
+
+//     show(){
+//         console.log("Zoom out class....");
+//     }
+// }
+
+
+// class ZoomIn extends  ZoomOut{
+//     show(){
+//         console.log("Zoom in class...")
+//     }
+// }
+
+
+// const o1 = new ZoomOut();
+// const i1 = new ZoomIn();
+
+// o1.show();
+// i1.show();
+
+
+// class ZoomOut{
+
+//     show(name){
+//         console.log("Zoom out class....",name);
+//     }
+
+//     show(age){
+//         console.log("Zoom in class....",age);
+//     }
+    
+// }
+
+// const o1 = new ZoomOut();
+
+// o1.show("Pawan");
+// o1.show(25);
+
+
+// JavaScript does not natively support method overloading, where multiple methods with the same name but different arguments exist in the same scope. However, method overloading can be simulated by checking the number or type of arguments passed to a function, and executing different logic based on them.
+
+
+
+
